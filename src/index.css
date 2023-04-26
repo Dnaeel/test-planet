@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-img{
+    width: 50px;
+    height: 50px;
+}
+
+.logo{
+    top: 24px;
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #254F4C;
+
+}
+
+.logo-in-russian{
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D3130;
+    top: 40px;
+}
+
+.menu > ul {
+    margin-top: 40px;
+    display: flex;
+    gap: 100px;
+}
+
+.menu li > a{
+    text-decoration: none;
+}
+
+ul > li{
+    list-style: none;
+}
+
+.home {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FF583E;
+}
+
+li > a {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D3130;
+}
